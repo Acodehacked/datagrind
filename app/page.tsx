@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       {/* //navbar */}
       <div className="fixed top-[35px] max-w-[1200px] w-full left-0 right-0 [backdrop-filter:blur(40px)] rounded-11xl [background:linear-gradient(90.38deg,_rgba(247,_252,_255,_0.3),_rgba(244,_238,_251,_0.3))] border-lavender-100 border-[1px] border-solid flex flex-row items-center justify-between py-[7px] rounded-full px-10 z-[999] text-gray-800 mx-auto">
         <Image className="w-[65.7px] relative h-14" width={66} height={56} alt="" src="/assets/Group18.svg" />
-        <div className="font-medium text-[20px] text-darkorchid opacity-90 tracking-lighter">DATAGRIND</div>
+        <div className="font-medium text-[40px] text-darkorchid opacity-90 tracking-lighter">DATAGRIND</div>
         <motion.div whileTap={{ scale: 0.9 }}>
           <Link href={'#contact'} className="relative hover:scale(101) transition-all leading-[16px] [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] px-5 py-3 rounded-full text-white">Contact Us</Link>
         </motion.div>
@@ -125,7 +125,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className="w-full flex flex-col gap-5 pt-20 text-left max-w-[1000px] mx-auto px-5">
-        <div className=" font-medium b1 [line-height:45px]  text-[45px] text-center">Frequently Asked Questions</div>
+        <div className=" font-medium b1 [line-height:45px]  text-[45px] text-center mb-10">Frequently Asked Questions</div>
         <div className=" rounded-11xl bg-brand-purple-primary-100 w-full flex flex-row items-start justify-start flex-wrap content-start py-4 px-6 box-border gap-4">
           <div className="b2 font-medium">Why choose Datagrind?</div>
           <div className=" relative text-base text-black ">Datagrind offers readymade, customizable applications for clinics, salons, hotels, financial services, and more—all for just ₹1 per day. By hosting the application on your computer, the platform ensures a virtually free, lightweight, and efficient solution for your business needs.
@@ -147,7 +147,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className=" bg-brand-purple-primary-900 gap-5 mt-20 flex flex-row items-center justify-center py-[21px] px-6 text-white font-roboto">
+      {/* <div className=" bg-brand-purple-primary-900 gap-5 mt-20 flex flex-row items-center justify-center py-[21px] px-6 text-white font-roboto">
         <div className=" text-17xl font-medium font-poppins text-brand-purple-secondary-100">Bring Ideas to life</div>
         <div className=" rounded-full  [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] flex flex-row items-center justify-center p-4 gap-2">
           <div className="relative leading-[16px]">Contact Us</div>
@@ -155,7 +155,7 @@ const Home: NextPage = () => {
       </div>
       <div className='w-full max-w-[1000px] mx-auto px-5 pt-10 pb-10'>
         <Image src={'/assets/lastlogo.png'} className='md:w-[350px] w-[50%]' alt='' width={800} height={1000} />
-      </div>
+      </div> */}
       {/* <div className="w-full max-w-[1000px] mx-auto px-5 grid grid-cols-2 md:grid-cols-4 text-zinc-900">
         <div className="flex flex-col gap-2 items-start">
           <div className="font-semibold">Company</div>
