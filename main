@@ -1,0 +1,159 @@
+<div className="w-[750px] relative h-[738.7px] text-[9.25px] text-gray-200 font-inter">
+          <Image className="absolute top-[49.67px] left-[57.5px] w-[616.3px] h-[615.6px]" width={616} height={616} alt="" src="/assets/mandalapattern.svg" />
+          <div className="absolute top-[353.13px] left-[363.75px] [filter:blur(7.12px)] rounded-[50%] [background:radial-gradient(50%_50%_at_50%_50%,_rgba(255,_255,_255,_0),_rgba(108,_47,_197,_0.25))] w-[8.1px] h-[8.1px] opacity-[0.4]" />
+          <div className="absolute top-[351.25px] left-[362.5px] [filter:blur(7.12px)] rounded-[50%] [background:radial-gradient(50%_50%_at_50%_50%,_rgba(255,_255,_255,_0),_rgba(108,_47,_197,_0.25))] w-[11.3px] h-[11.3px] opacity-[0.4]" />
+          <div className="absolute top-[350px] left-[361.25px] [filter:blur(17.79px)] rounded-[50%] [background:radial-gradient(50%_50%_at_50%_50%,_rgba(255,_255,_255,_0),_rgba(108,_47,_197,_0.25))] w-[13.8px] h-[13.8px] opacity-[0.4]" />
+          <div className="absolute top-[661.87px] left-[394.66px] w-[57.7px] h-[76.9px]">
+            <div className="absolute top-[0px] left-[0px] w-[56.9px] h-[56.9px]">
+              <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-lavender-200 border-indigo-200 border-[0.4px] border-solid box-border w-[56.9px] h-[56.9px]" />
+              <Image className="absolute top-[11.39px] left-[11.38px] w-[34.2px] h-[34.2px] overflow-hidden" width={34} height={34} alt="" src="/assets/fingerprint_svgrepo.com.svg" />
+            </div>
+            <div className="absolute top-[59.77px] left-[4.98px] w-[52.7px] h-[17.1px]">
+              <div className="absolute top-[0px] left-[0px] w-[51.9px] h-[17.1px]">
+                <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-indigo-300 border-blueviolet-200 border-[0.4px] border-solid box-border w-[51.9px] h-[17.1px]" />
+              </div>
+              <div className="absolute top-[0px] left-[0px] flex flex-row items-center justify-center p-[2.8px]">
+                <div className="w-[47px] relative h-[11px]">
+                  <div className="absolute top-[0px] left-[0px]">Biometrics</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute top-[81.12px] left-[65.26px] w-[57.7px] h-[76.9px]">
+            <div className="absolute top-[0px] left-[0px] w-[56.9px] h-[56.9px]">
+              <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-lavender-200 border-indigo-200 border-[0.4px] border-solid box-border w-[56.9px] h-[56.9px]" />
+              <Image className="absolute top-[calc(50%_-_18.86px)] left-[calc(50%_-_18.49px)] w-[34.2px] h-[34.2px] overflow-hidden" width={34} height={34} alt="" src="/assets/face-recognition-1.svg" />
+            </div>
+            <div className="absolute top-[59.77px] left-[4.98px] w-[52.7px] h-[17.1px]">
+              <div className="absolute top-[0px] left-[0px] w-[51.9px] h-[17.1px]">
+                <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-indigo-300 border-blueviolet-200 border-[0.4px] border-solid box-border w-[51.9px] h-[17.1px]" />
+              </div>
+              <div className="absolute top-[0px] left-[0px] flex flex-row items-center justify-center p-[2.8px]">
+                <div className="w-[47px] relative h-[11px]">
+                  <div className="absolute top-[0px] left-[0px]">Biometrics</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute top-[52.66px] left-[251.9px] w-[56.9px] h-[76.9px]">
+            <Image className="absolute top-[0px] left-[0px] w-[56.9px] h-[56.9px] object-cover" width={57} height={57} alt="" src="/assets/Group 31.png" />
+            <div className="absolute top-[59.77px] left-[5.69px] w-[45.7px] h-[17.1px]">
+              <div className="absolute top-[0px] left-[0px] w-[45.5px] h-[17.1px]">
+                <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-indigo-300 border-blueviolet-200 border-[0.4px] border-solid box-border w-[45.5px] h-[17.1px]" />
+              </div>
+              <div className="absolute top-[0px] left-[0px] flex flex-row items-center justify-center p-[2.8px]">
+                <div className="w-10 relative h-[11px]">
+                  <div className="absolute top-[0px] left-[0px]">Analytics</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute top-[0px] left-[427.66px] w-[56.9px] h-[76.9px]">
+            <Image className="absolute top-[0px] left-[0px] w-[56.9px] h-[56.9px]" width={57} height={57} alt="" src="/assets/Group 25.svg" />
+            <div className="absolute top-[59.77px] left-[9.96px] w-[38.7px] h-[17.1px]">
+              <div className="absolute top-[0px] left-[0px] w-[37px] h-[17.1px]">
+                <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-indigo-300 border-blueviolet-200 border-[0.4px] border-solid box-border w-[37px] h-[17.1px]" />
+              </div>
+              <div className="absolute top-[0px] left-[0px] flex flex-row items-center justify-center p-[2.8px]">
+                <div className="w-[33px] relative h-[11px]">
+                  <div className="absolute top-[0px] left-[0px]">System</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute top-[404.89px] left-[693.07px] w-[56.9px] h-[76.9px]">
+            <Image className="absolute top-[0px] left-[0px] w-[56.9px] h-[56.9px] object-cover" width={57} height={57} alt="" src="/assets/Group 29.png" />
+            <div className="absolute top-[59.77px] left-[0px] w-[26.7px] h-[17.1px]">
+              <div className="absolute top-[0px] left-[0px] w-[26.3px] h-[17.1px]">
+                <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-indigo-300 border-blueviolet-200 border-[0.4px] border-solid box-border w-[26.3px] h-[17.1px]" />
+              </div>
+              <div className="absolute top-[0px] left-[0px] flex flex-row items-center justify-center p-[2.8px]">
+                <div className="w-[21px] relative h-[11px]">
+                  <div className="absolute top-[0px] left-[0px]">Data</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute top-[195.68px] left-[629.74px] w-[56.9px] h-[76.8px]">
+            <Image className="absolute top-[0px] left-[0px] w-[56.9px] h-[56.9px]" width={57} height={57} alt="" src="/assets/Group 27.svg" />
+            <div className="absolute top-[59.77px] left-[0px] w-[20.7px] h-[17.1px]">
+              <div className="absolute top-[0px] left-[0px] w-[20.6px] h-[17.1px]">
+                <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-indigo-300 border-blueviolet-200 border-[0.4px] border-solid box-border w-[20.6px] h-[17.1px]" />
+              </div>
+              <div className="absolute top-[0px] left-[0px] flex flex-row items-center justify-center p-[2.8px]">
+                <div className="w-[15px] relative h-[11px]">
+                  <div className="absolute top-[0px] left-[0px]">API</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute top-[444.73px] left-[68.31px] w-[56.9px] h-[76.9px]">
+            <Image className="absolute top-[0px] left-[0px] w-[56.9px] h-[56.9px]" width={57} height={57} alt="" src="/assets/Group 28.svg" />
+            <div className="absolute top-[59.77px] left-[0px] w-[26.3px] h-[17.1px]">
+              <div className="absolute top-[0px] left-[0px] w-[26.3px] h-[17.1px]">
+                <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-indigo-300 border-blueviolet-200 border-[0.4px] border-solid box-border w-[26.3px] h-[17.1px]" />
+              </div>
+              <div className="absolute top-[0px] left-[0px] flex flex-row items-center justify-center p-[2.8px]">
+                <div className="w-[13px] relative h-[11px]">
+                  <div className="absolute top-[0px] left-[0px]">QR</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute top-[600.57px] left-[156.55px] w-[57px] h-[76.8px]">
+            <Image className="absolute top-[0px] left-[0px] w-[56.9px] h-[56.9px]" width={57} height={57} alt="" src="/assets/Group 24.svg" />
+            <div className="absolute top-[59.77px] left-[41.27px] w-[15.7px] h-[17.1px]">
+              <div className="absolute top-[0px] left-[0px] w-[15.7px] h-[17.1px]">
+                <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-indigo-300 border-blueviolet-200 border-[0.4px] border-solid box-border w-[15.7px] h-[17.1px]" />
+              </div>
+              <div className="absolute top-[0px] left-[0px] flex flex-row items-center justify-end p-[2.8px]">
+                <div className="w-2.5 relative h-[11px]">
+                  <div className="absolute top-[0px] left-[0px]">UI</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute top-[268.98px] left-[0px] w-[57.4px] h-[77.6px]">
+            <Image className="absolute top-[0px] left-[0px] w-[56.9px] h-[56.9px]" width={57} height={57} alt="" src="/assets/Group 22.svg" />
+            <div className="absolute top-[60.48px] left-[0.71px] w-[56.7px] h-[17.1px]">
+              <div className="absolute top-[0px] left-[0px] w-[56.2px] h-[17.1px]">
+                <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-indigo-300 border-blueviolet-200 border-[0.4px] border-solid box-border w-[56.2px] h-[17.1px]" />
+              </div>
+              <div className="absolute top-[0px] left-[0px] flex flex-row items-center justify-center p-[2.8px]">
+                <div className="w-[51px] relative h-[11px]">
+                  <div className="absolute top-[0px] left-[0px]">Attendance</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute top-[540.09px] left-[542.22px] w-[56.9px] h-[88.9px]">
+            <div className="absolute top-[0px] left-[0px] w-[56.9px] h-[56.9px]">
+              <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-lavender-200 border-indigo-200 border-[0.4px] border-solid box-border w-[56.9px] h-[56.9px]" />
+              <Image className="absolute top-[11.39px] left-[11.38px] w-[34.2px] h-[34.2px] overflow-hidden" width={34} height={34} alt="" src="/assets/whatsapp.svg" />
+            </div>
+            <div className="absolute top-[60.48px] left-[0.71px] w-[56.2px] h-[28.5px]">
+              <div className="absolute top-[0px] left-[0px] w-[56.2px] h-[28.5px]">
+                <div className="absolute top-[0px] left-[0px] [backdrop-filter:blur(7.6px)] rounded-7xs-7 bg-indigo-300 border-blueviolet-200 border-[0.4px] border-solid box-border w-[56.2px] h-[28.5px]" />
+              </div>
+              <div className="absolute top-[0px] left-[0px] flex flex-row items-center justify-center p-[2.8px]">
+                <div className="w-12 relative h-[22px]">
+                  <div className="absolute top-[0px] left-[0px]">
+                    <p className="m-0">WhatsApp</p>
+                    <p className="m-0">Integration</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <Image className="absolute top-[162.59px] left-[104.43px] w-[122.6px] h-[112.1px]" width={123} height={112} alt="" src="/assets/Vector 1.svg" />
+          <Image className="absolute top-[357.82px] left-[490.28px] w-[200.3px] h-[183px] object-contain" width={200} height={183} alt="" src="/assets/Vector 4.svg" />
+          <Image className="absolute top-[483.82px] left-[430.54px] w-[109.2px] h-[158.1px] object-contain" width={109} height={158} alt="" src="/assets/Vector 9.svg" />
+          <Image className="absolute top-[260.92px] left-[520.2px] w-[123.4px] h-[74.7px] object-contain" width={123} height={75} alt="" src="/assets/Vector 5.svg" />
+          <Image className="absolute top-[503.54px] left-[196.08px] w-[145.7px] h-[178.8px] object-contain" width={146} height={179} alt="" src="/assets/Vector 8.svg" />
+          <Image className="absolute top-[81.15px] left-[416.01px] w-[46.9px] h-[139.9px] object-contain" width={47} height={140} alt="" src="/assets/Vector 6.svg" />
+          <Image className="absolute top-[132.31px] left-[240.61px] w-[50.5px] h-[142.3px] object-contain" width={51} height={142} alt="" src="/assets/Vector 10.svg" />
+          <Image className="absolute top-[552.89px] left-[326.75px] w-[102.2px] h-[171.8px] object-contain" width={102} height={172} alt="" src="/assets/Vector 7.svg" />
+          <Image className="absolute top-[284.39px] left-[59.77px] w-[142.5px] h-[113px] object-contain" width={143} height={113} alt="" src="/assets/Vector 2.svg" />
+          <Image className="absolute top-[406.04px] left-[110.65px] w-[125.1px] h-[144.8px] object-contain" width={125} height={145} alt="" src="/assets/Vector 3.svg" />
+          <Image className="absolute top-[645px] left-[296.88px] w-[143.8px] h-[143.8px] opacity-[0]" width={144} height={144} alt="" src="/assets/logo .svg" />
+        </div>
