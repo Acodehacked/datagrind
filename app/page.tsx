@@ -10,11 +10,11 @@ const Home: NextPage = () => {
   return (
     <div className="w-full relative [background:linear-gradient(106.94deg,_#fff,_#fafaff)]  overflow-hidden text-center text-base text-brand-purple-primary-800 font-poppins">
       {/* //navbar */}
-      <div className="fixed md:top-[35px] max-w-[1200px] w-full left-0 right-0 [backdrop-filter:blur(40px)] [background:linear-gradient(90.38deg,_rgba(247,_252,_255,_0.3),_rgba(244,_238,_251,_0.3))] border-lavender-100 border-[1px] border-solid flex flex-row items-center justify-between py-[7px] md:rounded-full px-10 z-[999] text-gray-800 mx-auto">
-        <Image className="w-[65.7px] relative h-14" width={66} height={56} alt="" src="/assets/Group18.svg" />
+      <div className="fixed md:top-[35px] max-w-[1200px] w-full left-0 right-0 [backdrop-filter:blur(40px)] [background:linear-gradient(90.38deg,_rgba(247,_252,_255,_0.3),_rgba(244,_238,_251,_0.3))] border-lavender-100 border-[1px] border-solid flex flex-row items-center justify-between py-[7px] md:rounded-full px-5 md:px-10 z-[999] text-gray-800 mx-auto">
+        <Image className="md:w-[65.7px] w-[48px] relative h-14" width={66} height={56} alt="" src="/assets/Group18.svg" />
         <div className="font-medium md:text-[40px] text-[20px] text-darkorchid opacity-90 tracking-lighter">DATAGRIND</div>
         <motion.div whileTap={{ scale: 0.9 }}>
-          <Link href={'#contact'} className="relative hover:scale(101) transition-all leading-[16px] [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] px-5 py-3 rounded-full text-white">Contact Us</Link>
+          <Link href={'#contact'} className="relative hover:scale(101) transition-all  [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] px-5 py-3 rounded-full text-white text-sm">Contact Us</Link>
         </motion.div>
       </div>
       {/* hero */}
@@ -26,17 +26,17 @@ const Home: NextPage = () => {
           <div className=" top-[0px] left-[104px]">#System</div>
         </div>
         <div className=" relative h-[200px] text-zinc-700">
-          <div className=" text-[30px] font-medium mt-[30px]">Bring Idea to life</div>
+          <div className=" text-[30px] font-medium mt-[20px]">Bring Idea to life</div>
           <div className=" text-base font-medium mt-[20px]">
             <p className="m-0">{`From tasks and workflows to apps and systems, `}</p>
             <p className="m-0">build and automate anything in one powerful platform.</p>
           </div>
-          <div className=" flex flex-row items-center justify-center p-4 gap-2">
+          <div className=" flex flex-row items-center mt-3 justify-center p-4 gap-2">
             <motion.div whileTap={{ scale: 0.9 }}>
               <Link href={'#contact'} className="relative transition-all leading-[16px] [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] px-5 py-3 rounded-full text-white">Contact Us</Link>
             </motion.div>
             <motion.div whileTap={{ scale: 0.9 }}>
-              <button className="relative px-5 py-3 bg-secondary border-[0.1rem] border-zinc-700 rounded-full leading-[16px]">Learn More</button>
+              <Link  href={'#services'} className="relative px-5 py-3 bg-secondary border-[0.1rem] border-zinc-700 rounded-full leading-[16px]">Learn More</Link>
             </motion.div>
           </div>
         </div>
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
           autoplay
         />
       </div>
-      <div className="max-w-[1000px] mb-5 mx-auto w-full grid md:grid-cols-5 sm:grid-cols-2 grid-cols-2 items-center justify-center flex-wrap content-center gap-10 text-brand-purple-secondary-900 mt-10 px-4">
+      <div id="services" className="max-w-[1000px] mb-5 mx-auto w-full grid md:grid-cols-5 sm:grid-cols-2 grid-cols-2 items-center justify-center flex-wrap content-center gap-5 md:gap-10 text-brand-purple-secondary-900 mt-10 px-4">
         <div className='flex flex-col gap-2 items-center justify-center bg-white p-2 rounded-2xl shadow-xl'>
           <Image src={'/assets/Group67.png'} width={80} height={80} alt='' />
           <span className='text-zinc-600'>Data locked? Apis unlock</span>
@@ -71,22 +71,22 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className="max-w-[1000px]  px-5 mx-auto w-full pt-5 flex flex-row items-center justify-between flex-wrap content-center text-21xl">
-        <Image className="md:w-[35%] relative h-[302.5px] object-cover" width={332} height={303} alt="" src="/assets/Group71.png" />
+        <Image className="md:w-[35%] w-[150px] md:m-0 mb-5 relative md:h-[302.5px] object-contain" width={332} height={303} alt="" src="/assets/Group71.png" />
         <div className="flex md:w-[65%] flex-col items-start justify-start gap-2">
           <div className="relative font-medium b2">Understanding of data</div>
           <div className="mt-5 relative  text-black text-left ">Data isn’t just numbers or charts; it’s the key to unlocking untapped potential. It holds the power to predict trends, innovate solutions, and transform lives. When harnessed effectively, data transcends complexity, becoming a tool for clarity, insight, and impactful decision-making. Imagine a world where professionals like doctors, lawyers, and business owners can effortlessly utilize data to solve problems and elevate their services. That’s the kind of transformation Datagrind empowers—a future where data bridges the gap between potential and progress, driving innovation that changes everything.
           </div>
         </div>
       </div>
-      <div className="max-w-[1000px] mt-10 px-5 mx-auto w-full pt-5 flex flex-row items-center justify-between flex-wrap content-center text-21xl">
+      <div className="max-w-[1000px] mt-10 px-5 mx-auto w-full pt-5 flex  md:flex-row flex-col-reverse justify-between flex-wrap content-center text-21xl">
         <div className="flex md:w-[65%] flex-col items-start justify-start gap-2">
           <div className="relative font-medium b2">Fast App Building</div>
           <div className="mt-5 relative text-base text-black text-left ">Datagrind revolutionizes app creation by merging simplicity with innovation. Its no-code platform eliminates the need for traditional development, enabling anyone to design and deploy custom applications in minutes. Powered by a graph database, it ensures ultra-lightweight performance and real-time responsiveness. Whether you’re managing patients, organizing legal cases, or running a salon, Datagrind provides tailored solutions without the wait or complexity of conventional processes. With Datagrind, you’re not just building apps—you’re accelerating ideas into reality effortlessly.</div>
         </div>
-        <Image className="md:w-[35%] relative h-[302.5px] object-contain" width={332} height={303} alt="" src="/assets/Group73.png" />
+        <Image className="md:w-[35%] relative w-[150px] md:m-0 mb-5 md:h-[302.5px] object-contain" width={332} height={303} alt="" src="/assets/Group73.png" />
       </div>
       <div className="max-w-[1000px] mt-10 px-5 mx-auto w-full pt-5 flex flex-row items-center justify-between flex-wrap content-center text-21xl">
-        <Image className="md:w-[30%] relative h-[302.5px] object-contain " width={332} height={303} alt="" src="/assets/Group74.png" />
+        <Image className="md:w-[30%] w-[150px] md:m-0 mb-5 relative md:h-[302.5px] object-contain " width={332} height={303} alt="" src="/assets/Group74.png" />
         <div className="flex md:w-[70%] flex-col items-start justify-start gap-2">
           <div className="relative font-medium ps-4 b2">In-depth business analysis</div>
           <div className="mt-5 relative text-base ps-3 text-black text-left ">Deep data analysis unlocks the true potential of business processes, revealing insights that surface-level reviews often miss. It uncovers inefficiencies, identifies opportunities, and sharpens strategies. By truly understanding data, businesses can deliver personalized, precise, and efficient services, fostering customer loyalty and satisfaction. This proactive approach empowers decision-makers to anticipate challenges and adapt quickly. With Datagrind, businesses move beyond guesswork, achieving a deeper connection with their customers and redefining operational excellence.
@@ -189,11 +189,11 @@ const Home: NextPage = () => {
       </div> */}
 
       <div className=" border-brand-purple-primary-100 mt-10 border-t-[1px] border-solid box-border w-[1257px] h-px" />
-      <div className='max-w-[1000px] w-full mx-auto' id="contact">
+      <div className='max-w-[1000px] w-full mx-auto p-4' id="contact">
         <Image src={'/assets/Spiriyantra.png'} className='md:w-[50%] mt-5 mb-5' width={604} height={700} alt="" />
         <div className="flex md:flex-row flex-col gap-5 pb-20 justify-between mx-auto text-zinc-800 text-left p-3 text-md">
           <div className="flex flex-col justify-between">
-            <div className=" font-semibold">Address</div>
+            <div className=" font-semibold mb-2">Address</div>
             <div className="">
               <p className="m-0 font-medium">SPIRI YANTRA Private Limited</p>
               <p className="m-0">House no. 21/2, Oshiwara Vishal CHS LTD, New link road, News 24</p>
