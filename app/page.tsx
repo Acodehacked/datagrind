@@ -10,9 +10,9 @@ const Home: NextPage = () => {
   return (
     <div className="w-full relative [background:linear-gradient(106.94deg,_#fff,_#fafaff)]  overflow-hidden text-center text-base text-brand-purple-primary-800 font-poppins">
       {/* //navbar */}
-      <div className="fixed top-[35px] max-w-[1200px] w-full left-0 right-0 [backdrop-filter:blur(40px)] rounded-11xl [background:linear-gradient(90.38deg,_rgba(247,_252,_255,_0.3),_rgba(244,_238,_251,_0.3))] border-lavender-100 border-[1px] border-solid flex flex-row items-center justify-between py-[7px] rounded-full px-10 z-[999] text-gray-800 mx-auto">
+      <div className="fixed md:top-[35px] max-w-[1200px] w-full left-0 right-0 [backdrop-filter:blur(40px)] [background:linear-gradient(90.38deg,_rgba(247,_252,_255,_0.3),_rgba(244,_238,_251,_0.3))] border-lavender-100 border-[1px] border-solid flex flex-row items-center justify-between py-[7px] md:rounded-full px-10 z-[999] text-gray-800 mx-auto">
         <Image className="w-[65.7px] relative h-14" width={66} height={56} alt="" src="/assets/Group18.svg" />
-        <div className="font-medium text-[40px] text-darkorchid opacity-90 tracking-lighter">DATAGRIND</div>
+        <div className="font-medium md:text-[40px] text-[20px] text-darkorchid opacity-90 tracking-lighter">DATAGRIND</div>
         <motion.div whileTap={{ scale: 0.9 }}>
           <Link href={'#contact'} className="relative hover:scale(101) transition-all leading-[16px] [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] px-5 py-3 rounded-full text-white">Contact Us</Link>
         </motion.div>
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <DotLottieReact
-          className='mb-20 w-full'
+          className='mb-20 md:h-auto md:w-auto w-full'
           src="/assets/animate.lottie"
           loop
           autoplay
@@ -188,7 +188,7 @@ const Home: NextPage = () => {
         </div>
       </div> */}
 
-      <div className=" border-brand-purple-primary-100 mt-5 border-t-[1px] border-solid box-border w-[1257px] h-px" />
+      <div className=" border-brand-purple-primary-100 mt-10 border-t-[1px] border-solid box-border w-[1257px] h-px" />
       <div className='max-w-[1000px] w-full mx-auto' id="contact">
         <Image src={'/assets/Spiriyantra.png'} className='md:w-[50%] mt-5 mb-5' width={604} height={700} alt="" />
         <div className="flex md:flex-row flex-col gap-5 pb-20 justify-between mx-auto text-zinc-800 text-left p-3 text-md">
