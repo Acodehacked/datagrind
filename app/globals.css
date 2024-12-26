@@ -17,5 +17,25 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins, Helvetica, sans-serif;
+}
+.text-brand-purple-primary-500{
+  color: #522d96
+}
+.b2{
+  font-size: 29px;
+  color: #331964;
+}
+.b1{
+  font-size: 45px;
+  color: #331964;
+}
+.bg-brand-purple-primary-100{
+  background: #d3bdfc;
+  border-radius: 30px;
+  padding-top: 20px;
+}
+.bg-brand-purple-primary-900{
+  background-color: #331964;
+
 }
