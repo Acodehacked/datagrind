@@ -15,13 +15,11 @@ const Home: NextPage = () => {
           <div className="absolute top-[0px] left-[66px]">Spiriyantra</div>
           <div className="absolute top-[0px] left-[171px]">About Us</div>
         </div>
-        <div className="rounded-11xl border-royalblue border-[2px] border-solid overflow-hidden flex flex-row items-center justify-center p-4 text-left text-brand-purple-primary-900">
-          <div className="relative leading-[16px]">Contact Us</div>
-        </div>
+        <button className="relative hover:scale(101) transition-all leading-[16px] [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] px-5 py-3 rounded-full text-white">Contact Us</button>
       </div>
       {/* hero */}
       <div className=" rounded-t-none rounded-b-31xl [background:linear-gradient(180deg,_rgba(255,_255,_255,_0)_40.53%,_rgba(255,_255,_255,_0.05)_73.47%,_rgba(255,_255,_255,_0.2),_rgba(255,_255,_255,_0.2)),_linear-gradient(90deg,_#8831fa,_rgba(170,_127,_227,_0)_25.02%,_rgba(204,_204,_204,_0)_49.96%,_rgba(170,_126,_227,_0)_75%,_#8831fa)] pt-[200px]">
-        <div className="text-45xl text-brand-purple-primary-500 text-[60px] w-full">Tech Made Simple</div>
+        <div className="text-45xl text-brand-purple-primary-500 text-[60px] font-semibold w-full [line-height:60px]">Tech Made Simple</div>
         <div className="mt-[30px] h-[54px] text-brand-purple-primary-500 flex gap-3 justify-center text-[25px]">
           <div className=" top-[0px] left-[0px] ">#API</div>
           <div className=" top-[0px] left-[287px]">#Data</div>
@@ -39,7 +37,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <DotLottieReact
-          className='mb-20'
+          className='mb-20 w-full'
           src="/assets/animate.lottie"
           loop
           autoplay
