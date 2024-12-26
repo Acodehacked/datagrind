@@ -2,20 +2,20 @@
 import type { NextPage } from 'next';
 import Image from "next/image";
 import Lottie from 'react-lottie';
+import { motion } from "motion/react"
 import animationData from '@/app/animate.json';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import Link from 'next/link';
 const Home: NextPage = () => {
   return (
     <div className="w-full relative [background:linear-gradient(106.94deg,_#fff,_#fafaff)]  overflow-hidden text-center text-base text-brand-purple-primary-800 font-poppins">
       {/* //navbar */}
-      <div className="fixed top-[40px] max-w-[1200px] w-full right-0 left-0 mx-auto [backdrop-filter:blur(40px)] rounded-11xl [background:linear-gradient(90.38deg,_rgba(247,_252,_255,_0.3),_rgba(244,_238,_251,_0.3))] border-lavender-100 border-[1px] border-solid flex flex-row items-center justify-between py-[7px] rounded-full px-10 z-[999] text-gray-800 ">
+      <div className="fixed top-[35px] max-w-[1200px] w-full left-0 right-0 [backdrop-filter:blur(40px)] rounded-11xl [background:linear-gradient(90.38deg,_rgba(247,_252,_255,_0.3),_rgba(244,_238,_251,_0.3))] border-lavender-100 border-[1px] border-solid flex flex-row items-center justify-between py-[7px] rounded-full px-10 z-[999] text-gray-800 mx-auto">
         <Image className="w-[65.7px] relative h-14" width={66} height={56} alt="" src="/assets/Group18.svg" />
-        <div className="w-[243px] relative h-6">
-          <div className="absolute top-[0px] left-[0px] font-semibold text-darkorchid">Home</div>
-          <div className="absolute top-[0px] left-[66px]">Spiriyantra</div>
-          <div className="absolute top-[0px] left-[171px]">About Us</div>
-        </div>
-        <button className="relative hover:scale(101) transition-all leading-[16px] [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] px-5 py-3 rounded-full text-white">Contact Us</button>
+        <div className="font-medium text-[20px] text-darkorchid opacity-90 tracking-lighter">DATAGRIND</div>
+        <motion.div whileTap={{ scale: 0.9 }}>
+          <Link href={'#contact'} className="relative hover:scale(101) transition-all leading-[16px] [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] px-5 py-3 rounded-full text-white">Contact Us</Link>
+        </motion.div>
       </div>
       {/* hero */}
       <div className=" rounded-t-none rounded-b-31xl [background:linear-gradient(180deg,_rgba(255,_255,_255,_0)_40.53%,_rgba(255,_255,_255,_0.05)_73.47%,_rgba(255,_255,_255,_0.2),_rgba(255,_255,_255,_0.2)),_linear-gradient(90deg,_#8831fa,_rgba(170,_127,_227,_0)_25.02%,_rgba(204,_204,_204,_0)_49.96%,_rgba(170,_126,_227,_0)_75%,_#8831fa)] pt-[200px]">
@@ -32,8 +32,12 @@ const Home: NextPage = () => {
             <p className="m-0">build and automate anything in one powerful platform.</p>
           </div>
           <div className=" flex flex-row items-center justify-center p-4 gap-2">
-            <button className="relative hover:translate-y-[-10px] transition-all leading-[16px] [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] px-5 py-3 rounded-full text-white">Contact Us</button>
-            <button className="relative px-5 py-3 bg-secondary border-[0.1rem] border-zinc-700 rounded-full leading-[16px]">Learn More</button>
+            <motion.div whileTap={{ scale: 0.9 }}>
+              <Link href={'#contact'} className="relative transition-all leading-[16px] [background:linear-gradient(167.14deg,_#5a7dfb,_#9613d4)] px-5 py-3 rounded-full text-white">Contact Us</Link>
+            </motion.div>
+            <motion.div whileTap={{ scale: 0.9 }}>
+              <button className="relative px-5 py-3 bg-secondary border-[0.1rem] border-zinc-700 rounded-full leading-[16px]">Learn More</button>
+            </motion.div>
           </div>
         </div>
         <DotLottieReact
@@ -50,32 +54,34 @@ const Home: NextPage = () => {
         </div>
         <div className='flex flex-col gap-2 items-center justify-center bg-white p-2 rounded-2xl shadow-xl'>
           <Image src={'/assets/Group70.png'} width={80} height={80} alt='' />
-          <span className='text-zinc-600'>Data locked? Apis unlock</span>
+          <span className='text-zinc-600'>User Analytics at the core</span>
         </div>
         <div className='flex flex-col gap-2 items-center justify-center bg-white p-2 rounded-2xl shadow-xl'>
           <Image src={'/assets/Group66.png'} width={80} height={80} alt='' />
-          <span className='text-zinc-600'>Data locked? Apis unlock</span>
+          <span className='text-zinc-600'>Out-of-the-box UI options
+          </span>
         </div>
         <div className='flex flex-col gap-2 items-center justify-center bg-white p-2 rounded-2xl shadow-xl'>
           <Image src={'/assets/Group64.png'} width={80} height={80} alt='' />
-          <span className='text-zinc-600'>Data locked? Apis unlock</span>
+          <span className='text-zinc-600'>Light apps thanks to GraphDB</span>
         </div>
         <div className='flex flex-col gap-2 items-center justify-center bg-white p-2 rounded-2xl shadow-xl'>
           <Image src={'/assets/Group63.png'} width={80} height={80} alt='' />
-          <span className='text-zinc-600'>Data locked? Apis unlock</span>
+          <span className='text-zinc-600'>Deep customer engagement</span>
         </div>
       </div>
       <div className="max-w-[1000px]  px-5 mx-auto w-full pt-5 flex flex-row items-center justify-between flex-wrap content-center text-21xl">
         <Image className="md:w-[35%] relative h-[302.5px] object-cover" width={332} height={303} alt="" src="/assets/Group71.png" />
         <div className="flex md:w-[65%] flex-col items-start justify-start gap-2">
           <div className="relative font-medium b2">Understanding of data</div>
-          <div className="mt-5 relative text-base text-black text-left inline-block h-[167px] shrink-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="mt-5 relative  text-black text-left ">Data isn’t just numbers or charts; it’s the key to unlocking untapped potential. It holds the power to predict trends, innovate solutions, and transform lives. When harnessed effectively, data transcends complexity, becoming a tool for clarity, insight, and impactful decision-making. Imagine a world where professionals like doctors, lawyers, and business owners can effortlessly utilize data to solve problems and elevate their services. That’s the kind of transformation Datagrind empowers—a future where data bridges the gap between potential and progress, driving innovation that changes everything.
+          </div>
         </div>
       </div>
       <div className="max-w-[1000px] mt-10 px-5 mx-auto w-full pt-5 flex flex-row items-center justify-between flex-wrap content-center text-21xl">
         <div className="flex md:w-[65%] flex-col items-start justify-start gap-2">
           <div className="relative font-medium b2">Fast App Building</div>
-          <div className="mt-5 relative text-base text-black text-left inline-block h-[167px] shrink-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="mt-5 relative text-base text-black text-left ">Datagrind revolutionizes app creation by merging simplicity with innovation. Its no-code platform eliminates the need for traditional development, enabling anyone to design and deploy custom applications in minutes. Powered by a graph database, it ensures ultra-lightweight performance and real-time responsiveness. Whether you’re managing patients, organizing legal cases, or running a salon, Datagrind provides tailored solutions without the wait or complexity of conventional processes. With Datagrind, you’re not just building apps—you’re accelerating ideas into reality effortlessly.</div>
         </div>
         <Image className="md:w-[35%] relative h-[302.5px] object-contain" width={332} height={303} alt="" src="/assets/Group73.png" />
       </div>
@@ -83,7 +89,8 @@ const Home: NextPage = () => {
         <Image className="md:w-[30%] relative h-[302.5px] object-contain " width={332} height={303} alt="" src="/assets/Group74.png" />
         <div className="flex md:w-[70%] flex-col items-start justify-start gap-2">
           <div className="relative font-medium ps-4 b2">In-depth business analysis</div>
-          <div className="mt-5 relative text-base ps-3 text-black text-left inline-block h-[167px] shrink-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="mt-5 relative text-base ps-3 text-black text-left ">Deep data analysis unlocks the true potential of business processes, revealing insights that surface-level reviews often miss. It uncovers inefficiencies, identifies opportunities, and sharpens strategies. By truly understanding data, businesses can deliver personalized, precise, and efficient services, fostering customer loyalty and satisfaction. This proactive approach empowers decision-makers to anticipate challenges and adapt quickly. With Datagrind, businesses move beyond guesswork, achieving a deeper connection with their customers and redefining operational excellence.
+          </div>
         </div>
       </div>
 
@@ -120,20 +127,24 @@ const Home: NextPage = () => {
       <div className="w-full flex flex-col gap-5 pt-20 text-left max-w-[1000px] mx-auto px-5">
         <div className=" font-medium b1 [line-height:45px]  text-[45px] text-center">Frequently Asked Questions</div>
         <div className=" rounded-11xl bg-brand-purple-primary-100 w-full flex flex-row items-start justify-start flex-wrap content-start py-4 px-6 box-border gap-4">
-          <div className="b2 font-medium">What is Datagrind?</div>
-          <div className=" relative text-base text-black ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="b2 font-medium">Why choose Datagrind?</div>
+          <div className=" relative text-base text-black ">Datagrind offers readymade, customizable applications for clinics, salons, hotels, financial services, and more—all for just ₹1 per day. By hosting the application on your computer, the platform ensures a virtually free, lightweight, and efficient solution for your business needs.
+          </div>
         </div>
         <div className=" rounded-11xl bg-brand-purple-primary-100 flex flex-row items-start justify-start flex-wrap content-start py-4 px-6 box-border gap-4">
-          <div className="b2 font-medium">What is Datagrind?</div>
-          <div className=" relative text-base text-black ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="b2 font-medium">What makes graph databases ideal for Datagrind?</div>
+          <div className=" relative text-base text-black ">Graph databases are lightweight and optimized for traversing connected data. This makes them perfect for creating applications that are fast, responsive, and highly efficient without the need to process large data sets.</div>
         </div>
         <div className=" rounded-11xl bg-brand-purple-primary-100 flex flex-row items-start justify-start flex-wrap content-start py-4 px-6  box-border gap-4">
-          <div className="b2 font-medium">What is Datagrind?</div>
-          <div className=" relative text-base text-black  ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="b2 font-medium">Is the ₹1 per day pricing permanent?</div>
+          <div className=" relative text-base text-black ">Yes, the ₹1 per day cost is a lifetime commitment. Our mission is to bring humanity closer to data through software, and we are dedicated to maintaining this affordable pricing model.
+          </div>
         </div>
         <div className="rounded-11xl bg-brand-purple-primary-100 flex flex-row items-start justify-start flex-wrap content-start py-4 px-6  box-border gap-4">
-          <div className="b2 font-medium">What is Datagrind?</div>
-          <div className=" relative text-base text-black ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="b2 font-medium">How can I make changes to my application?
+          </div>
+          <div className=" relative text-base text-black ">Datagrind currently supports communication via SMS, Email, and WhatsApp, ensuring seamless interaction with your customers.
+          </div>
         </div>
       </div>
       <div className=" bg-brand-purple-primary-900 gap-5 mt-20 flex flex-row items-center justify-center py-[21px] px-6 text-white font-roboto">
@@ -145,7 +156,7 @@ const Home: NextPage = () => {
       <div className='w-full max-w-[1000px] mx-auto px-5 pt-10 pb-10'>
         <Image src={'/assets/lastlogo.png'} className='md:w-[350px] w-[50%]' alt='' width={800} height={1000} />
       </div>
-      <div className="w-full max-w-[1000px] mx-auto px-5 grid grid-cols-2 md:grid-cols-4 text-zinc-900">
+      {/* <div className="w-full max-w-[1000px] mx-auto px-5 grid grid-cols-2 md:grid-cols-4 text-zinc-900">
         <div className="flex flex-col gap-2 items-start">
           <div className="font-semibold">Company</div>
           <div className="">About us</div>
@@ -175,10 +186,10 @@ const Home: NextPage = () => {
             <Image className="" width={44} height={40} alt="" src="/assets/x_logo.svg.svg" />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className=" border-brand-purple-primary-100 mt-5 border-t-[1px] border-solid box-border w-[1257px] h-px" />
-      <div className='max-w-[1000px] w-full mx-auto'>
+      <div className='max-w-[1000px] w-full mx-auto' id="contact">
         <Image src={'/assets/Spiriyantra.png'} className='md:w-[50%] mt-5 mb-5' width={604} height={700} alt="" />
         <div className="flex md:flex-row flex-col gap-5 pb-20 justify-between mx-auto text-zinc-800 text-left p-3 text-md">
           <div className="flex flex-col justify-between">
@@ -190,10 +201,10 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className=" ">
-            <div className=" font-semibold">Contact</div>
-            <div className="">
-              <p className="m-0">human@datagrind.ai</p>
-              <p className="m-0">+91 1234567890</p>
+            <div className=" font-semibold mb-2">Contact</div>
+            <div className="flex flex-col gap-2">
+              <Link href={'hello@datagrind.ai'} className="m-0">hello@datagrind.ai</Link>
+              <p className="m-0">+91 9029044820</p>
             </div>
           </div>
         </div>
