@@ -1,8 +1,9 @@
+'use client'
 import type { NextPage } from 'next';
 import Image from "next/image";
-
-
-
+import Lottie from 'react-lottie';
+import animationData from '@/app/animate.json';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 const Home: NextPage = () => {
   return (
     <div className="w-full relative [background:linear-gradient(106.94deg,_#fff,_#fafaff)]  overflow-hidden text-center text-base text-brand-purple-primary-800 font-poppins">
@@ -26,7 +27,7 @@ const Home: NextPage = () => {
           <div className=" top-[0px] left-[287px]">#Data</div>
           <div className=" top-[0px] left-[104px]">#System</div>
         </div>
-        <div className=" relative h-[368px] text-zinc-700">
+        <div className=" relative h-[200px] text-zinc-700">
           <div className=" text-[30px] font-medium mt-[30px]">Bring Idea to life</div>
           <div className=" text-base font-medium mt-[20px]">
             <p className="m-0">{`From tasks and workflows to apps and systems, `}</p>
@@ -37,7 +38,12 @@ const Home: NextPage = () => {
             <button className="relative px-5 py-3 bg-secondary border-[0.1rem] border-zinc-700 rounded-full leading-[16px]">Learn More</button>
           </div>
         </div>
-        
+        <DotLottieReact
+          className='mb-20'
+          src="/assets/animate.lottie"
+          loop
+          autoplay
+        />
       </div>
       <div className="max-w-[1000px] mb-5 mx-auto w-full grid md:grid-cols-5 sm:grid-cols-2 grid-cols-2 items-center justify-center flex-wrap content-center gap-10 text-brand-purple-secondary-900 mt-10 px-4">
         <div className='flex flex-col gap-2 items-center justify-center bg-white p-2 rounded-2xl shadow-xl'>
